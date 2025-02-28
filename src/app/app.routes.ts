@@ -1,9 +1,9 @@
 import { Route } from '@angular/router';
-import { TaskComponent } from './tasks/task/task.component';
+import { TasksComponent } from './tasks/tasks.component';
 
 export const routes: Route[] = [
   {
-    path: 'task', // <your-domain>/task
-    component: TaskComponent,
+    path: 'tasks', // <your-domain>/task
+    component: TasksComponent,
   },
 ];
